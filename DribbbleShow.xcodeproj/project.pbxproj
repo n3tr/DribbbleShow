@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21236CFAC7736B31B8D4BE3F /* Pods_DribbbleShow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A5E5B80283406E48D5779C /* Pods_DribbbleShow.framework */; };
+		672DDDFCF6D87E26874989E5 /* Pods_DribbbleShowTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C96589E4DC23E6E3B047A528 /* Pods_DribbbleShowTests.framework */; };
 		6AB176A21D7071F500941778 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB176A11D7071F500941778 /* AppDelegate.swift */; };
 		6AB176A41D7071F500941778 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB176A31D7071F500941778 /* ViewController.swift */; };
 		6AB176A71D7071F500941778 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AB176A51D7071F500941778 /* Main.storyboard */; };
 		6AB176A91D7071F500941778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AB176A81D7071F500941778 /* Assets.xcassets */; };
 		6AB176AC1D7071F500941778 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AB176AA1D7071F500941778 /* LaunchScreen.storyboard */; };
 		6AB176B71D7071F600941778 /* DribbbleShowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB176B61D7071F600941778 /* DribbbleShowTests.swift */; };
+		6AB176C21D7072A100941778 /* ShotsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB176C11D7072A100941778 /* ShotsCollectionViewController.swift */; };
+		6AB176C51D70743700941778 /* ShotCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB176C31D70743700941778 /* ShotCollectionViewCell.swift */; };
+		6AB176C61D70743700941778 /* ShotCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AB176C41D70743700941778 /* ShotCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19FBDAA2F4FCEC35C158994C /* Pods-DribbbleShowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DribbbleShowTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DribbbleShowTests/Pods-DribbbleShowTests.release.xcconfig"; sourceTree = "<group>"; };
+		2E17CA6B30524D052FDB8203 /* Pods-DribbbleShow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DribbbleShow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DribbbleShow/Pods-DribbbleShow.debug.xcconfig"; sourceTree = "<group>"; };
+		43A5E5B80283406E48D5779C /* Pods_DribbbleShow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DribbbleShow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AB1769E1D7071F500941778 /* DribbbleShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DribbbleShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AB176A11D7071F500941778 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6AB176A31D7071F500941778 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +44,12 @@
 		6AB176B21D7071F600941778 /* DribbbleShowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DribbbleShowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AB176B61D7071F600941778 /* DribbbleShowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DribbbleShowTests.swift; sourceTree = "<group>"; };
 		6AB176B81D7071F600941778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AB176C11D7072A100941778 /* ShotsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShotsCollectionViewController.swift; sourceTree = "<group>"; };
+		6AB176C31D70743700941778 /* ShotCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShotCollectionViewCell.swift; sourceTree = "<group>"; };
+		6AB176C41D70743700941778 /* ShotCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShotCollectionViewCell.xib; sourceTree = "<group>"; };
+		9FDCB935DB73D82C90EEDC33 /* Pods-DribbbleShowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DribbbleShowTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DribbbleShowTests/Pods-DribbbleShowTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C96589E4DC23E6E3B047A528 /* Pods_DribbbleShowTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DribbbleShowTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D99A5542D69FA2605A133482 /* Pods-DribbbleShow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DribbbleShow.release.xcconfig"; path = "Pods/Target Support Files/Pods-DribbbleShow/Pods-DribbbleShow.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21236CFAC7736B31B8D4BE3F /* Pods_DribbbleShow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				672DDDFCF6D87E26874989E5 /* Pods_DribbbleShowTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +78,8 @@
 				6AB176A01D7071F500941778 /* DribbbleShow */,
 				6AB176B51D7071F600941778 /* DribbbleShowTests */,
 				6AB1769F1D7071F500941778 /* Products */,
+				80B7468BD50A5E8153C0BFE4 /* Pods */,
+				859D009E178C50BDB5E895DF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +101,9 @@
 				6AB176A81D7071F500941778 /* Assets.xcassets */,
 				6AB176AA1D7071F500941778 /* LaunchScreen.storyboard */,
 				6AB176AD1D7071F500941778 /* Info.plist */,
+				6AB176C11D7072A100941778 /* ShotsCollectionViewController.swift */,
+				6AB176C31D70743700941778 /* ShotCollectionViewCell.swift */,
+				6AB176C41D70743700941778 /* ShotCollectionViewCell.xib */,
 			);
 			path = DribbbleShow;
 			sourceTree = "<group>";
@@ -96,6 +117,26 @@
 			path = DribbbleShowTests;
 			sourceTree = "<group>";
 		};
+		80B7468BD50A5E8153C0BFE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E17CA6B30524D052FDB8203 /* Pods-DribbbleShow.debug.xcconfig */,
+				D99A5542D69FA2605A133482 /* Pods-DribbbleShow.release.xcconfig */,
+				9FDCB935DB73D82C90EEDC33 /* Pods-DribbbleShowTests.debug.xcconfig */,
+				19FBDAA2F4FCEC35C158994C /* Pods-DribbbleShowTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		859D009E178C50BDB5E895DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43A5E5B80283406E48D5779C /* Pods_DribbbleShow.framework */,
+				C96589E4DC23E6E3B047A528 /* Pods_DribbbleShowTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +144,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6AB176BB1D7071F600941778 /* Build configuration list for PBXNativeTarget "DribbbleShow" */;
 			buildPhases = (
+				72640E7F68F005972F32C39E /* [CP] Check Pods Manifest.lock */,
 				6AB1769A1D7071F500941778 /* Sources */,
 				6AB1769B1D7071F500941778 /* Frameworks */,
 				6AB1769C1D7071F500941778 /* Resources */,
+				EBF77B90F0E1833DC2D6D95B /* [CP] Embed Pods Frameworks */,
+				4230129A84A5FC41BDEC1275 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6AB176BE1D7071F600941778 /* Build configuration list for PBXNativeTarget "DribbbleShowTests" */;
 			buildPhases = (
+				1FF47F4FF59B5DE7990CEA07 /* [CP] Check Pods Manifest.lock */,
 				6AB176AE1D7071F600941778 /* Sources */,
 				6AB176AF1D7071F600941778 /* Frameworks */,
 				6AB176B01D7071F600941778 /* Resources */,
+				44ACEBF97EB48393FBEDCC02 /* [CP] Embed Pods Frameworks */,
+				523A32F1553837A5949BD0ED /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -177,6 +224,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AB176C61D70743700941778 /* ShotCollectionViewCell.xib in Resources */,
 				6AB176AC1D7071F500941778 /* LaunchScreen.storyboard in Resources */,
 				6AB176A91D7071F500941778 /* Assets.xcassets in Resources */,
 				6AB176A71D7071F500941778 /* Main.storyboard in Resources */,
@@ -192,13 +240,108 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1FF47F4FF59B5DE7990CEA07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4230129A84A5FC41BDEC1275 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DribbbleShow/Pods-DribbbleShow-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44ACEBF97EB48393FBEDCC02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DribbbleShowTests/Pods-DribbbleShowTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		523A32F1553837A5949BD0ED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DribbbleShowTests/Pods-DribbbleShowTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72640E7F68F005972F32C39E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EBF77B90F0E1833DC2D6D95B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DribbbleShow/Pods-DribbbleShow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6AB1769A1D7071F500941778 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AB176C51D70743700941778 /* ShotCollectionViewCell.swift in Sources */,
 				6AB176A41D7071F500941778 /* ViewController.swift in Sources */,
 				6AB176A21D7071F500941778 /* AppDelegate.swift in Sources */,
+				6AB176C21D7072A100941778 /* ShotsCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +470,7 @@
 		};
 		6AB176BC1D7071F600941778 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E17CA6B30524D052FDB8203 /* Pods-DribbbleShow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DribbbleShow/Info.plist;
@@ -338,6 +482,7 @@
 		};
 		6AB176BD1D7071F600941778 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D99A5542D69FA2605A133482 /* Pods-DribbbleShow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DribbbleShow/Info.plist;
@@ -349,6 +494,7 @@
 		};
 		6AB176BF1D7071F600941778 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FDCB935DB73D82C90EEDC33 /* Pods-DribbbleShowTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = DribbbleShowTests/Info.plist;
@@ -361,6 +507,7 @@
 		};
 		6AB176C01D7071F600941778 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19FBDAA2F4FCEC35C158994C /* Pods-DribbbleShowTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = DribbbleShowTests/Info.plist;
@@ -390,6 +537,7 @@
 				6AB176BD1D7071F600941778 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6AB176BE1D7071F600941778 /* Build configuration list for PBXNativeTarget "DribbbleShowTests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +546,7 @@
 				6AB176C01D7071F600941778 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
