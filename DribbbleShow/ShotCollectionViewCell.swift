@@ -20,9 +20,7 @@ class ShotCollectionViewCell: UICollectionViewCell {
     func configureCell(shot: [String: AnyObject]) {
         let urlString = shot["images"]!["normal"]! as! String
         let url = NSURL(string: urlString)!
-        self.imageView.sd_setImageWithURL(url) { (_, _, _, _) in
-            
-        }
+        self.imageView.sd_setImageWithURL(url)
     }
     
 
